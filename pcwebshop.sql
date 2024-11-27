@@ -231,7 +231,7 @@ values
 -- lista korisnika broj 1 ( Ivan )
 -- ( broj artikla, broj sifra kategorije )
 (1,1), -- intel i7 9700K
-(20,1), -- NVIDIA GeForce RTX 4090
+(21,1), -- NVIDIA GeForce RTX 4090
 (11,1), -- ASUS ROG Strix Z790-E Gaming WiFi
 
 -- Lucijina lista
