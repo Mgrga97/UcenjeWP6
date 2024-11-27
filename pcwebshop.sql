@@ -252,7 +252,77 @@ values
 -- Petrova lista
 (3, 5),  -- Intel Core i7-14700K
 (13, 5), -- ASRock B660 Steel Legend
-(20, 5); -- MSI GeForce GTX 1050 Ti
+(20, 5), -- MSI GeForce GTX 1050 Ti
+
+-- Josipova lista
+(2, 7),  -- AMD Ryzen 7 7800X3D
+(13, 7), -- MSI MEG X570 Godlike
+(26, 7), -- AMD Radeon RX 6700 XT
+
+-- Katarinina lista
+(3, 8),  -- Intel Core i7-14700K
+(14, 8), -- ASUS TUF Gaming B450 Plus
+(27, 8), -- NVIDIA GeForce RTX 3080 Ti
+
+-- Filipova lista
+(9, 9),  -- Intel Core i5-13600KF
+(16, 9), -- Gigabyte Z590 AORUS Elite
+(28, 9), -- MSI GeForce GTX 1050 Ti
+
+-- Mateina lista
+(10, 10),  -- AMD Ryzen 9 5950X
+(17, 10),  -- MSI MAG Z690 Tomahawk WiFi
+(29, 10),  -- AMD Radeon RX 5600 XT
+
+-- Tomislavova lista
+(5, 11),  -- Intel Core i9-14900K
+(12, 11),  -- ASUS Prime Z690-A
+(30, 11),  -- NVIDIA GeForce RTX 4070 Ti
+
+-- Nikolinina lista
+(6, 12),  -- Intel Core i5-13400F
+(18, 12),  -- ASUS Prime Z690-A
+(31, 12),  -- NVIDIA GeForce GTX 1660 Super
+
+-- Lukina lista
+(11, 13), -- AMD Ryzen 7 7800X3D
+(19, 13), -- Gigabyte Z590 AORUS Elite
+(32, 13), -- AMD Radeon RX 7900 XTX
+
+-- Ivanina lista
+(12, 14), -- Intel Core i7-14700K
+(20, 14), -- ASRock Z590 Taichi
+(33, 14), -- NVIDIA GeForce RTX 3060
+
+-- Dariova lista
+(13, 15), -- Intel Core i7 9700K
+(21, 15), -- MSI MAG Z690 Tomahawk WiFi
+(34, 15), -- AMD Radeon RX 6800 XT
+
+-- Sarina lista
+(14, 16), -- Intel Core i9-14900K
+(22, 16), -- Gigabyte AORUS X570 Master
+(35, 16), -- NVIDIA GeForce GTX 1050 Ti
+
+-- Matijina lista
+(15, 17), -- AMD Ryzen 5 7600
+(23, 17), -- ASUS Prime Z690-A
+(36, 17), -- NVIDIA GeForce RTX 4070 Ti
+
+-- Tinina lista
+(16, 18), -- Intel Core i5-13600KF
+(24, 18), -- MSI MEG X570 Godlike
+(37, 18), -- NVIDIA GeForce RTX 4090
+
+-- Andrejeva lista
+(17, 19), -- AMD Ryzen 9 7950X3D
+(25, 19), -- ASUS ROG Strix Z790-E Gaming WiFi
+(38, 19), -- AMD Radeon RX 6700 XT
+
+-- Martinina lista
+(18, 20), -- Intel Core i7-14700K
+(26, 20), -- Gigabyte Z590 AORUS Elite
+(39, 20), -- MSI GeForce GTX 1050 Ti
 
 -- dodajem stupac socket za laksi pregled
 
