@@ -10,27 +10,6 @@ go
 use vjezba1kolokvij;
 go
 
-create table zena(
-sifra int not null primary key identity(1,1),
-treciputa datetime,
-hlace varchar(50)not null,
-kratkamajica varchar(50)not null,
-jmbag char(11),
-bojaociju varchar(50)not null,
-haljina varchar(50)not null,
-sestra int not null 
-);
-
-create table sestra(
-sifra int not null primary key identity(1,1),
-introvertno bit,
-haljina varchar(50)not null,
-maraka decimal(16,6),
-hlace varchar(50)not null,
-narukvica int not null
-
-);
-
 create table punac(
 sifra int not null primary key identity(1,1),
 ogrlica int not null,
@@ -50,6 +29,29 @@ suknja varchar(50)not null,
 punac int not null
 
 );
+
+create table sestra(
+sifra int not null primary key identity(1,1),
+introvertno bit,
+haljina varchar(50)not null,
+maraka decimal(16,6),
+hlace varchar(50)not null,
+narukvica int not null
+
+);
+
+create table zena(
+sifra int not null primary key identity(1,1),
+treciputa datetime,
+hlace varchar(50)not null,
+kratkamajica varchar(50)not null,
+jmbag char(11),
+bojaociju varchar(50)not null,
+haljina varchar(50)not null,
+sestra int not null references sestra(sifra)
+);
+
+
 
 create table muskarac(
 sifra int not null primary key identity(1,1),
