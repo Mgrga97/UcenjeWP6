@@ -43,16 +43,16 @@ namespace Ucenje
             }
 
             // ako nema {} onda se naredba odnosi samo na prvu sljedeću liniju
-            if(i>5)
+            if (i > 5)
                 Console.WriteLine("OK");
             else
                 Console.WriteLine("Greška");
-                Console.WriteLine("Dio greške"); // ova linija nije dio else-a
+            Console.WriteLine("Dio greške"); // ova linija nije dio else-a
 
             // opratori and & i &&
             i = 0;
             int j = 2;
-            if(i==5 & j == 2) // uvijek se provjeravaju oba uvjeta
+            if (i == 5 & j == 2) // uvijek se provjeravaju oba uvjeta
             {
                 Console.WriteLine("Dvostruki uvjet je zadovoljen");
             }
@@ -65,7 +65,7 @@ namespace Ucenje
 
             // operatori or | (Alt Gr + W) desni alt i ||
             if (i == 0 | j == 0) // provjerava i drugi uvjet iako je ptri True
-            { 
+            {
                 Console.WriteLine("Prvi uvjet je zadovoljen");
             }
 
@@ -77,7 +77,7 @@ namespace Ucenje
 
             if (i > 0)
             {
-                if(j > 0)
+                if (j > 0)
                 {
                     Console.WriteLine("Ugnježđivanje");
                 }
@@ -89,7 +89,8 @@ namespace Ucenje
             if (i == 0)
             {
                 Console.WriteLine("Nula");
-            }else if (i == 1)
+            }
+            else if (i == 1)
             {
                 Console.WriteLine("Jedan");
             }
@@ -115,9 +116,9 @@ namespace Ucenje
 
             // inline if
 
-            Console.WriteLine(grad=="Osijek" ? "Super" : "Nije Super");
+            Console.WriteLine(grad == "Osijek" ? "Super" : "Nije Super");
 
-            Console.WriteLine((grad=="Osijek" ? "" : "Nije ") + "Super"); // težimo ovakvom načinu pisanja
+            Console.WriteLine((grad == "Osijek" ? "" : "Nije ") + "Super"); // težimo ovakvom načinu pisanja
 
 
         }

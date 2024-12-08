@@ -1,16 +1,15 @@
 ﻿
 
 using Ucenje;
-
 E04Z2.Izvedi();
 
-// E06Nizovi.Izvedi();
+//E06Nizovi.Izvedi();
 
 //E05UvjetnoGrananjeSwitch.Izvedi();
 
-// E04Z1.Izvedi();
+//E04Z1.Izvedi();
 
-// E04UvjetnoGrananjeIf.Izvedi();
+//E04UvjetnoGrananjeIf.Izvedi();
 
 //E03Operatori.Izvedi();
 
