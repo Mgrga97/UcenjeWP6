@@ -101,8 +101,43 @@ namespace Ucenje
                 Console.WriteLine();
             }
 
+            // petlju se moze preskociti (nastaviti) i nasilno prekinuti
+            for (int i = 0; i < 10; i++) 
+            {
+                if (i == 3) 
+                {
+                    continue;
+                }
+
+                if (i == 7)
+                {
+                    break;
+                }
+
+                Console.WriteLine(i);
 
 
+            }
+
+            // DZ saznati kako prekinuti ugnjeđženu petlju (iz najdublje vanjske)
+
+            // kako postici beskonacnu petlju
+            // ovo nije beskonacna jer int ide do 2mlrd itd.
+
+            for (int i = 0; i >= 0; i++) 
+            {
+                Console.WriteLine(i);
+                break;
+            }
+
+
+            // beskonačna petlja
+            for (; ; ) 
+            {
+                Console.WriteLine(new Random().NextInt64()+ "" +new Random().NextInt64()+ "" +new Random().NextInt64() + ""+ new Random().NextInt64());
+                Thread.Sleep(300);
+                break; // ovo maknuti ako zelimo beskonacni prikaz brojeva, 300 je milisekundi 
+            }
 
         }
 
