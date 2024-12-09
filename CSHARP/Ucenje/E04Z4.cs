@@ -36,7 +36,7 @@ namespace Ucenje
                 case "Zadar":
                     Console.WriteLine("Dalmacija");
                     break;
-                case "Čakovec":
+                case "Cakovec":
                     Console.WriteLine("Međimurje");
                     break;
                 case "Pula":
