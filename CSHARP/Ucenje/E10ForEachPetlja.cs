@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Ucenje
 {
-    internal class E10ForEachPetlja
+    internal class E10ForeachPetlja
     {
+
         public static void Izvedi()
         {
-            Console.WriteLine("E10");
+            //Console.WriteLine("E10");
 
             Console.Write("Unesi ime svog grada: ");
 
@@ -19,6 +19,8 @@ namespace Ucenje
 
             Console.WriteLine(grad);
 
+            // string je zapravo niz znakova char[]
+            // za Osijek 
             char[] znakoviGrad = new char[6];
             znakoviGrad[0] = 'O';
             znakoviGrad[1] = 's';
@@ -31,30 +33,35 @@ namespace Ucenje
             {
                 Console.Write(znakoviGrad[i]);
             }
-
             Console.WriteLine();
 
-            for(int i = 0; i<grad.Length; i++)
+            for(int i = 0;i<grad.Length; i++)
             {
                 Console.Write(grad[i]);
             }
+            Console.WriteLine();
 
-
-            foreach(char znak in znakoviGrad)
+            // često se šećemo od početka do kraja
+            foreach (char znak in znakoviGrad)
             {
                 Console.Write(znak);
             }
+            Console.WriteLine();
 
-            foreach(char c in grad)
+            foreach (char c in grad)
             {
                 Console.Write(c);
             }
             Console.WriteLine();
 
-            for(int i =grad.Length-1; i>=0; i--)
+            // ispiši uneseni grad unazad
+            // Valpovo   ovoplav
+
+            for(int i = grad.Length - 1; i >= 0; i--)
             {
                 Console.Write(grad[i]);
             }
+
 
         }
     }

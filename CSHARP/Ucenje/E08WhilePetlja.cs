@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,51 +8,75 @@ namespace Ucenje
 {
     internal class E08WhilePetlja
     {
+
         public static void Izvedi()
         {
-            // Console.WriteLine("E08");
+            //Console.WriteLine("E08");
 
-            int brojDo = 0; // ovo unosi korisnik
+            // pojam ulaska u petlju
+            // u for petlju se ne mora ući
 
-            for (int i = 0; i<brojDo; i++)
+
+            int brojDo = 0; //ovo unosi korisnik
+
+            for(int i = 0; i < brojDo; i++)
             {
                 Console.WriteLine(i);
             }
 
-            // if radi sa bool tipom podatka
-            // beskonačna petlja
 
+            // while radi s bool tipom podatka
+            // beskonačna petlja
             while (true)
             {
                 Console.WriteLine("Osijek");
                 break;
             }
 
+            // if radi s bool tipom podatke
+            // switch rad s brojevima, char i string
+            // while radi s bool tipom podatka
 
-            int broj = 0, t = 2;
+
+            //najčešći način while
+
+            int broj = 0, t=2;
+
 
             while (broj < 10 && t==2)
             {
                 Console.WriteLine(++broj);
+               
             }
 
+
+            // u while se ne mora ući
             broj = 10;
-            while(broj<10)
+            while(broj < 10)
             {
                 Console.WriteLine(++broj);
             }
 
+            // ZAD s while petljom zbrojiti prvih 100 brojeva
 
-            int sum = 0;
+            int suma = 0;
+            for(int j = 1; j <= 100; j++)
+            {
+                suma += j;
+            }
+            Console.WriteLine(suma);
+
+            suma = 0;
             broj = 1;
             while (broj <= 100)
             {
-                
-                sum += broj++;
+                //suma += broj++;
+                suma = suma + broj;
+                broj = broj + 1;
             }
-            Console.WriteLine(sum);
-            
+            Console.WriteLine(suma);
 
         }
+
     }
 }
