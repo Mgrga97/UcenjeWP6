@@ -2,7 +2,7 @@
 
 using Ucenje;
 
-E10Z2.Izvedi();
+ E10Z2.Izvedi();
 
 // E10Z1.Izvedi();
 
