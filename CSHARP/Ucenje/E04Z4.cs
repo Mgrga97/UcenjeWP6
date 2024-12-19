@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ucenje
 {
- /*
+
+    /*
         *  KORISTEĆI IF
         * 
        Program učitava od korisnika ime grada.U ovisnosti o imenu grada ispisuje regiju prema sljedećim pravilima:
@@ -18,42 +19,8 @@ namespace Ucenje
       Za ostale unose program ispisuje: Ne znam koja je to regija.
        */
 
-// dodatno: Odraditi istu logiku s switch
+    // dodatno: Odraditi istu logiku s switch
     internal class E04Z4
-{
-        public static void Izvedi()
-        {
-            Console.WriteLine("Unesi naziv grada: ");
-            string grad = Console.ReadLine();
-            {
-                Console.WriteLine("Unijeli ste: " +grad);
-            }
-            switch (grad)
-            {
-                case "Osijek":
-                    Console.WriteLine("Slavonija");
-                    break;
-                case "Zadar":
-                    Console.WriteLine("Dalmacija");
-                    break;
-                case "Cakovec":
-                    Console.WriteLine("Međimurje");
-                    break;
-                case "Pula":
-                    Console.WriteLine("Istra");
-                    break;
-                default:
-                    Console.WriteLine("Ne znam koja je to regija.");
-                    break;
-
-            }
-
-        }
+    {
     }
-
-
-
 }
-
-   
-

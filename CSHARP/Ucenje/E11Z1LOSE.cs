@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ucenje
 {
-    internal class E11Z1LOSE 
+    internal class E11Z1LOSE
     {
-
-
-        // Uvod u METODE 
+        // Program unosi dva cijela broja i ispisuje njihov zbroj
+        // Program mora biti "neprobojan"
 
         public static void Izvedi()
         {
@@ -23,15 +22,12 @@ namespace Ucenje
                 {
                     broj1 = int.Parse(Console.ReadLine());
                     break;
-
                 }
-                catch
+                catch 
                 {
-
-                    Console.WriteLine("Nisi unio broj!");
+                    Console.WriteLine("Nisi unio broj");
                 }
             }
-
 
 
             while (true)
@@ -41,17 +37,17 @@ namespace Ucenje
                 {
                     broj2 = int.Parse(Console.ReadLine());
                     break;
-
                 }
                 catch
                 {
-
-                    Console.WriteLine("Nisi unio broj!");
+                    Console.WriteLine("Nisi unio broj");
                 }
             }
 
+            Console.WriteLine("{0} + {1} = {2}", broj1,broj2, broj1+broj2);
 
-            Console.WriteLine("{0} + {1} = {2}", broj1, broj2, broj1 + broj2);
+
         }
+
     }
 }

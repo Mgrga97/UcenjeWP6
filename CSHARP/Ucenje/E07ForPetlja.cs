@@ -43,7 +43,7 @@ namespace Ucenje
             {
                 for(int j = 1; j <= 10; j++)
                 {
-                    Console.Write("\t{0,4}", i * j);
+                    Console.Write("\t{0}", i * j);
                 }
                 Console.WriteLine();
             }
@@ -68,17 +68,7 @@ namespace Ucenje
                 if (i % 2 == 0)
                 {
                     //Console.WriteLine(i);
-                    
-                    if (i == 20)
-                    {
-                        Console.Write(i);
-
-                    }
-                    else
-                    {
-                        Console.Write(i +",");
-                    }
-                    
+                    Console.Write("{0},",i);
                 }
             }
             // DZ: Maknuti zadnji zarez
@@ -117,9 +107,6 @@ namespace Ucenje
                     Console.Write(tablica[i,j] + " ");
                 }
                 Console.WriteLine();
-                {
-                    break;
-                }
             }
 
             // petlju se može preskočiti (nastaviti) i nasilno prekinuti

@@ -8,23 +8,24 @@ namespace Ucenje
 {
 
 
+
     internal class E13Z2
     {
+
         public static void Izvedi()
         {
-            Zad1();
-
+            Zad2();
         }
 
-        // Zadatak 1. program upisuje ime i ispisuje koliko ime ima znakova
+        // Zad 1. Program unosi ime i ispisuje koliko ime ima znakova
         private static void Zad1()
         {
-            Console.WriteLine("dobrodošli u 1.zadatak");
+            Console.WriteLine("Dobrodošli u 1. zadatak");
             string ime;
             while (true)
             {
-                ime = E12Metode.UcitajString("unesi ime osobe(-1 za kraj): ");
-                if (ime.ToUpper() == "-1")
+                ime = E12Metode.UcitajString("Unesi ime osobe (NE za kraj): ");
+                if (ime.ToUpper() == "NE")
                 {
                     Console.WriteLine("Hvala na korištenju programa 1. zadatak!");
                     break;
@@ -34,5 +35,23 @@ namespace Ucenje
 
         }
 
+        // Zad 2. Program unosi ime i prezime Osobe odvojeno. Progra ispisuje prezime i ime
+
+        private static void Zad2()
+        {
+            string ime, prezime, jos;
+            while (true)
+            {
+                ime = E12Metode.UcitajString("Unesi ime: ");
+                prezime = E12Metode.UcitajString("Unesi prezime: ");
+                Console.WriteLine("{0} {1}", prezime, ime);
+
+                if (E12Metode.UcitajString("DA za još: ").ToUpper() != "DA")
+                {
+                    break;
+                }
+            }
+
+        }
     }
 }
