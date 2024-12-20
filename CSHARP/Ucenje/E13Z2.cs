@@ -53,5 +53,9 @@ namespace Ucenje
             }
 
         }
+        // lakši način, ovo iznad je bespotrebno kompliciranje
+        // string ime = E12Metode.UcitajString("Unesi ime: ");
+        // string prezime = E12Metode.UcitajString("Unesi prezime: ");
+        // Console.WriteLine("{0} {1}",prezime,ime);
     }
 }
