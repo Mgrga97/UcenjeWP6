@@ -39,7 +39,7 @@ namespace Ucenje
 
         private static void Zad2()
         {
-            string ime, prezime, jos;
+            string ime, prezime;
             while (true)
             {
                 ime = E12Metode.UcitajString("Unesi ime: ");
