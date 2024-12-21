@@ -72,8 +72,13 @@ namespace Ucenje
         private static void BrojZnakovaNazivaMjesta()
         {
             NaslovPrograma("Za uneseni naziv mjesta ispisuje koliko ima znakova ");
-            string NazivMjesta = E12Metode.UcitajString("Unesi naziv mjesta: ");
-            Console.WriteLine(NazivMjesta.Length);
+
+            Console.WriteLine(E12Metode.UcitajString("Unesi ime grada: ").Length);
+
+            //string NazivMjesta = E12Metode.UcitajString("Unesi naziv mjesta: ");
+            //Console.WriteLine(NazivMjesta.Length);
+
+
         }
 
         private static void VrijednostJedinice()
