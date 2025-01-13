@@ -2,9 +2,13 @@
 
 using Ucenje;
 
+
+// nova instanca klase program
+new Ucenje.E17KlasaObjekt.Program();
+
 // E15Subota.Izvedi();
 
- E14Vjezbanje.Izvedi();
+// E14Vjezbanje.Izvedi();
 
 // E13Z2.Izvedi();
 
