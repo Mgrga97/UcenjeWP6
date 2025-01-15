@@ -2,9 +2,10 @@
 
 using Ucenje;
 
+new Ucenje.E18NasljedivanjePolimorfizam.Program("E18");
 
 // nova instanca klase program
-new Ucenje.E17KlasaObjekt.Program();
+// new Ucenje.E17KlasaObjekt.Program();
 
 // E15Subota.Izvedi();
 
