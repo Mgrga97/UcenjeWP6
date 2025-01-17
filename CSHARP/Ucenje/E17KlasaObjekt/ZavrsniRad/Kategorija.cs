@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ucenje.E17KlasaObjekt.ZavrsniRad
 {
-    internal class Kategorija
+    public class Kategorija
     {
+        public int Sifra { get; set; }
+
+        public string Naziv { get; set; } = "";
+
     }
 }
