@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ucenje.E17KlasaObjekt.ZavrsniRad
 {
-    internal class ListaZelja
+    public class ListaZelja
     {
         public int Sifra { get; set; }
 
